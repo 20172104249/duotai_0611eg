@@ -13,7 +13,7 @@ public:
 	CFeet();
 	void setfeet(int f);
 	void setinches(int ich);
-	void display();
+	virtual void display();
 	int getfeet();
 	int getinches();
 };
